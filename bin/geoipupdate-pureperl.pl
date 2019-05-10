@@ -60,7 +60,7 @@ $ua->env_proxy;
 
 my $license_file = 'GeoIP.conf';
 my $update_host  = 'updates.maxmind.com';
-my $proto        = 'http';
+my $proto        = 'https';
 my %opts;
 
 if ( !getopts( 'hvf:d:', \%opts ) or $opts{h} ) {
